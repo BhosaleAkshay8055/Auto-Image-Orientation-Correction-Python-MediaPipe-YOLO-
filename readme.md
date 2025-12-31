@@ -99,7 +99,6 @@ markdown
 ### Python Version
 Python 3.9 – 3.11
 
-markdown
  
 
 ### Install Dependencies
@@ -144,16 +143,9 @@ Corrected images will be saved in:
 
  
 content/output/
-🆚 Comparison
-Feature	MediaPipe	YOLO Pose
-Detection Method	Face landmarks	Full-body pose
-Speed	Fast	Slower
-Face Required	Yes	No
-180° Rotation	❌ No	✅ Yes
-Accuracy	Medium	High
-GPU	Not required	Optional
 
-✅ Recommendation
+
+Recommendation
 Use MediaPipe for fast face-only orientation correction
 
 Use YOLO for full-body or mixed datasets
