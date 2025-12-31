@@ -131,17 +131,13 @@ Supported formats:
 Step 2: Run Script
 MediaPipe version
 ```
-
 python CorrectPhotoOrientationMediaPipe.py
-
 ```
 
 YOLO version
 
 ```
-
 python correctPhotoOrientationYolo.py
-
 ```
 Step 3: Output
 Corrected images will be saved in:
