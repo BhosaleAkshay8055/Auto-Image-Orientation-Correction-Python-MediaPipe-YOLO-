@@ -1,0 +1,73 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+venv/
+.env/
+.env.*
+my_env/
+
+
+# =========================
+# Jupyter / Notebooks
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# IDE / Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Model Files
+# =========================
+*.pt
+*.onnx
+*.engine
+
+# =========================
+# Media / Data
+# =========================
+content/sample_data/*
+content/output/*
+
+# Keep folder structure
+!content/sample_data/.gitkeep
+!content/output/.gitkeep
+
+# =========================
+# OpenCV / Temp Files
+# =========================
+*.tmp
+*.bak
+
+# =========================
+# Cache
+# =========================
+.cache/
+.yolo/
+
+# ========================= env Files
