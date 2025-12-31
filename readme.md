@@ -107,42 +107,45 @@ markdown
 **MediaPipe script**
 ```
 pip install opencv-python mediapipe numpy
-YOLO script
 ```
 
-bash
- 
+YOLO script
+```
 pip install opencv-python ultralytics numpy
+```
 YOLO will automatically download:
-
  
 yolov8l-pose.pt
-▶️ Usage
+
+Usage
 Step 1: Add Images
 Place your images in:
 
-bash
- 
+```
 content/sample_data/
+```
 Supported formats:
 
  
 .jpg .jpeg .png
 Step 2: Run Script
 MediaPipe version
+```
 
-bash
- 
 python CorrectPhotoOrientationMediaPipe.py
+
+```
+
 YOLO version
 
-bash
- 
+```
+
 python correctPhotoOrientationYolo.py
+
+```
 Step 3: Output
 Corrected images will be saved in:
 
-bash
  
 content/output/
 🆚 Comparison
